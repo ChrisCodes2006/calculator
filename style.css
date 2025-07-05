@@ -1,0 +1,78 @@
+
+.main{
+    display:flex;
+    flex-direction: column;
+    height: 730px;
+    width: 500px;
+    margin-left: 400px;
+    border-color: black;
+    border-style: solid;
+    background-color: silver;
+    border-radius: 5px;
+    
+}
+.mainscreen{
+    resize: both;
+    flex-grow:2;
+    display:flex;
+    margin:10px;
+    background-color: black;
+    border-radius: 20px;
+    
+}
+.screen{
+    flex-wrap: nowrap;
+    background-color: green;
+    flex:1;
+    margin: 20px;
+    text-align: right;
+    font-size: 50px;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow:hidden;
+}
+button{
+    height: 80px;
+    width: 150px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: darkgray;
+    color:white;
+    text-size-adjust: 30px;
+    border-radius: 60px;
+}
+button:active{
+    background-color: green;
+}
+.operations button{
+    width:120px;
+}
+.main div{
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+.rowone, .rowtwo, .rowthree, .rowzero{
+    display: flex;
+    justify-content: space-around;
+}
+
+.rowfour{
+    display: flex;
+    justify-content: right;
+}
+.rowfour button{
+    margin-right: 58px;
+}
+#equal{
+    width: 60px;
+    height: 60px;
+
+    text-align: center;
+}
+.operations{
+    display: flex;
+    justify-content: space-around;
+}
